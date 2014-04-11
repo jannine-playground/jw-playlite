@@ -1,0 +1,91 @@
+video {
+  box-shadow: 1px 1px 5px black;
+}
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background:black;
+}
+
+.bmenu {
+  text-align: right;
+  padding: 30px 0;
+}
+
+.bmenu li {
+  font-size: 25px;
+}
+
+.bmenu li a {
+  text-decoration:none;
+  font-family: 'Marko One', serif;
+}
+
+.bmenu {
+   z-index: 100;
+}
+
+
+.holder{
+    width: 100%;
+    height: 100%;
+    position:relative;
+}
+
+.frame{ }
+
+.bar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.bmenu {
+  display: none;
+}
+
+.bar:hover .bmenu{
+  display: block;
+}
+
+li {
+  vertical-align: middle;
+}
+
+li > a {
+  margin-right:60px;
+}
+
+img {
+  display: inline;
+  width:55px;
+  border-radius:10%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  display:none;
+  vertical-align:middle;
+}
+
+a span span.publish {
+  vertical-align:middle;
+}
+
+a > span.publish {
+  display:none;
+  color:white;
+  font-family: 'Concert One', cursive;
+}
+
+a:hover img {
+  display:inline;
+}
+
+a:hover > span.publish {
+  display:inline;
+}
+
+
+
